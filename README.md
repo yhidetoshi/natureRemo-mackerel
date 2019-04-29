@@ -33,4 +33,4 @@ $ aws lambda update-function-code --function-name ${LAMBDA_FUNCTION_NAME} --zip-
 
 ### Mackerelの画面
 
-![Alt Text](https://github.com/yhidetoshi/Pictures/raw/master/natureRemo-mackerel-graph.png)
+![Alt Text](https://github.com/yhidetoshi/Pictures/raw/master/mackerel/natureRemo-mackerel-graph.png)
