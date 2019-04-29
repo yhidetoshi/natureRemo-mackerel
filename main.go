@@ -1,28 +1,28 @@
 package main
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 	"net/http"
 	"os"
 	"time"
-	"context"
 
 	"github.com/aws/aws-lambda-go/lambda"
 	"github.com/mackerelio/mackerel-client-go"
 )
 
 var (
-	url     = "https://api.nature.global/1/devices"
-	token = os.Getenv("REMOTOKEN")
-	mkrKey   = os.Getenv("MKRKEY")
-	client   = mackerel.NewClient(mkrKey)
+	url    = "https://api.nature.global/1/devices"
+	token  = os.Getenv("REMOTOKEN")
+	mkrKey = os.Getenv("MKRKEY")
+	client = mackerel.NewClient(mkrKey)
 )
 
 const (
 	serviceName = "NatureRemo"
-    timezone = "Asia/Tokyo"
-    offset = 9*60*60
+	timezone    = "Asia/Tokyo"
+	offset      = 9 * 60 * 60
 )
 
 type Device struct {
