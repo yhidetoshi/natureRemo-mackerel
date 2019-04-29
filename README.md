@@ -1,4 +1,4 @@
-# natureRemo-post-mackerel
+# natureRemo-mackerel
 
 - やること
   - NatureRemoで取得したデータ(気温・湿度・照度)をMackerelにPostさせる。
