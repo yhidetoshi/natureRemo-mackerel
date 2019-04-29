@@ -30,3 +30,7 @@ $ aws lambda update-function-code --function-name ${LAMBDA_FUNCTION_NAME} --zip-
     - TZ: Asia/Tokyo
     - MKRKEY: mackerel_api_keyをセット
     - REMOTOKEN: natureRemoトークン
+
+### Mackerelの画面
+
+![Alt Text](https://github.com/yhidetoshi/Pictures/raw/master/natureRemo-mackerel-graph.png)
